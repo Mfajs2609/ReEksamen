@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Bøger</title>
+</head>
+<body>
+<h1>Bøger</h1>
+
+<table>
+    <tr>
+        <th>Bog titel</th>
+        <th>Forfatter</th>
+        <th>ISBN</th>
+        <th>Antal sider</th>
+        <th></th>
+    </tr>
+    <tr th:each="book: ${books}">
+        <td><input th:value="${book.title}" readonly/></td>
+        <td><input th:value="${book.author}" readonly/></td>
+        <td><input th:value="${book.isbn}" readonly/></td>
+        <td><input th:value="${book.numberOfPages}"/></td>
+        <td><a th:href="@{'/updateBook'+${book.id}}">Update book</a></td>
+    </tr>
+</table>
+</body>
+</html>

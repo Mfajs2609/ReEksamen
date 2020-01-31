@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="wrapper">
+
+    <h1>Update</h1>
+    <form action="#" th:action="@{'/updateBook'+${id}}" method="post">
+
+        <p>Title</p>
+        <input type="text" th:value="${title}" class="inputField" name='title' id="title" placeholder="Titel">
+
+        <p>Author</p>
+        <input type="text" th:value="${author}" class="inputField" name='author'  id="author" placeholder="Forfatter">
+
+        <p>Number Of Pages</p>
+        <input type="text" th:value="${numberOfPages}" class="inputField" name='numberOfPages'  id="numberOfPages" placeholder="Antal sider">
+
+        <p>ISBN</p>
+        <input type="text" th:value="${isbn}" class="inputField" name='isbn'  id="isbn" placeholder="ISBN Nummer">
+
+        <button class="greenButton" style="margin-right: 1%;" type="submit">Opdater</button>
+
+    </form>
+
+</div>
+</body>
+</html>
