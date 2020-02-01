@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ajax</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+</head>
+<body>
+
+    <div class="introduction">
+        <p>
+            Hej
+        </p>
+    </div>
+
+    <script>
+        var person = {
+            name:"Tobias",
+            age: 18
+        };
+        var about = "Davs med dig " + person.name + " du er " + person.age + " år gammel.";
+
+        $(".introduction").append("<p>" + about + "</p>")
+    </script>
+
+</body>
+</html>
