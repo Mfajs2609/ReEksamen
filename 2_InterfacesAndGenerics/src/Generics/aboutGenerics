@@ -1,0 +1,15 @@
+Generics:
+
+Dynamisk:
+-Vi kan definere en datatype senere i koden. Datypen kan variere, så derfor giver vi den en generisk datatype(i vores
+tilfælde T). Den egentlige datatype, som angives senere bliver sat i runtime.
+E - Element (used extensively by the Java Collections Framework)
+K - Key
+N - Number
+T - Type
+V - Value
+S,U,V etc. - 2nd, 3rd, 4th types
+
+Hvorfor er det godt?
+-Det er ikke altid vi ved, hvilken datatype et objekt skal modtage.
+-Måske ved vi at et objekt skal modtage mere end én datatype.

@@ -1,0 +1,8 @@
+Abstraction:
+-Vi benytter abstrakte klasser, som også kan indeholde abstrakte metoder.
+-De almindelige metoder behøver ikke blive implementeret, imodesætning til interfaces.
+-De abstrakte metoder SKAL implenteres.
+
+Hvorfor er det smart?:
+-Reusability af koden. Har man mange dyr(i vores tilfælde), kan metoden bruges på mange dyr, og ikke kun et.
+ Vi slipper på denne måde for, at oprette metoder til hvert dyr, men implementerer bare den samme metode.

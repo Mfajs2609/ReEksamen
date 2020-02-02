@@ -1,0 +1,8 @@
+Interfaces:
+-Indeholder tomme metoder (Abstrakte metoder)
+-Alle metoder SKAL implementeres.
+-Man kan implementere flere interfaces i én klasse
+-Det er en opskrift, som skal følges. Se det som et blueprint
+
+Hvorfor er det godt?:
+-Det er en måde at opnå multiple inheritance, da dette ikke kan gøres gennem inheritance alene.

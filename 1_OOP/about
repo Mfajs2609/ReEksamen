@@ -1,0 +1,18 @@
+Hvad er OOP?
+
+Objekt Orienteret Programmering
+
+Vi arbejder med objekter.
+
+Vi definerer klasser, og alle klasser har states og behaviors. Den kan have begge dele, eller kun en af tingene.
+Vi opretter objekter af klasser(instanser) ved brug af vores constructors.
+Ved at bruge en constructor med parametre kan man selv vælge, hvilke parametre man vil arbejde med.
+
+Man benytter metoder til at indføre logik og manipulation af data.
+
+Fordele:
+-Reusability - Objekter kan genbruges. Man kan lave mange metoder med samme objekt.
+-Scalability - Man kan altid tilføje nye objekter til klasserne.
+-Efficiency
+    -Easy to learn (fokuseret på logik).
+    -Runtime efficiency: Meget kode kan genbruges. Her undgår vi redundant kode, hvilket gør koden mere efficient.

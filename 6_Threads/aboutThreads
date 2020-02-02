@@ -1,0 +1,20 @@
+Threads:
+
+Synchronized:
+Kun én thread kan tilgå objektet.
+Når én thread skal til at bruge et objekt kan objektet ikke bruges af andre threads. Først når thread 1 er færdig
+kan thread 2 bruge objektet.
+
+Deadlock:
+-Thread 1 skal bruge et objekt, som er i brug af thread 2 og derfor låst, og thread 2 skal bruge et objekt som
+thread 1 arbejder med. De venter evig på at objektet bliver ledigt. Threadsne har som sådan ikke noget med hinanden
+at gøre, de skal bare bruges et objekt, som den anden thread bruger.
+
+Livelock:
+Thread 1 venter på data fra thread 2 før den kan gå videre, og thread 2 venter på data fra thread 1 før den
+kan gå videre.
+Threadsne er altså afhængige af hinanden, og vil vente evigt på, at modtage data fra den anden.
+
+Semaphore:
+-Kontrollerer hvor mange threads der må bruge objektet på en gang.
+-Kontrollerer under hvilke omstændigheder threads skal starte eller stoppen vha. .acquire og .release metoderne.

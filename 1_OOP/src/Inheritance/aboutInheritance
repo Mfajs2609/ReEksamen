@@ -1,0 +1,9 @@
+Inheritance:
+En subklasse nedarver metoder og variabler fra en super/parent klasse.
+En subklasse kan kun extende EN superklasse.
+
+
+Godt fordi:
+-Performance
+    Sparer en masse linjer kode. Redundatnt kode.
+

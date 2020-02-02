@@ -1,0 +1,4 @@
+Queue:
+First in first out.
+LinkedList implementere Deque, som nedarver fra queue. Derfor skal vores queue instansieres som LinkedList
+i vores eksempel.

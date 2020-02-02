@@ -1,0 +1,12 @@
+Set
+Én unik værdi. Kan ikke indeholde duplikeringer.
+Bruges når man har brug for en liste, som indeholder data, som har én unik værdi.
+
+    HashSet:
+    Ingen rækkefølge
+
+    TreeSet:
+    Sortet endten numerisk eller alfabetisk, alt efter om det er String eller int.
+
+    LinkedHashSet:
+    Sorteret i rækkefølgen, som dataen sættes ind.

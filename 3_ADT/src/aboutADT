@@ -1,0 +1,24 @@
+ADT
+Abstract DataType
+
+-En abstrakt datatype har nogle prædefinerede metoder, som man kan benytte.
+
+List:
+Benytter indexer
+    ArrayList:
+    Én lang række med data. Den er lineær. Slettes der noget, skal alle elementer rykkes frem.
+    Dette er en ulempe ved ArrayLists da det er langsommere.
+    Fordel: Godt til hvis du skal have fat i ét bestemt element via et index. Den behøver ikke køre hele listen igennem.
+    LinkedList:
+    Pile peger på de andre elementer. Slettes data rettes pilene først, så der ikke slettes den data, som elementet
+    peger på.
+    Fordel: Hurtig, da der kun skal rykkes én pointer, hvis der skal slettes eller tilføjes en masse data.
+
+Queue:
+First in first out.
+LinkedList implementere Deque, som nedarver fra queue. Derfor skal vores queue instansieres som LinkedList
+i vores eksempel.
+
+Stack:
+First in last out.
+Bruges hvis vi ved at altid kun skal bruge det sidste element der er blevet indsat.

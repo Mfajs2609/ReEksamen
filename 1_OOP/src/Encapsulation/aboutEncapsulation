@@ -1,0 +1,10 @@
+Encapsulation:
+Vi tillader ikke at andre klasser at bruge variabler i andre klasser gennem metoder alene.
+
+
+-Private/Public
+-Getters and Setters:
+    Getter Method :
+        While getting the value of a varible we can check in the method that it is initialised or not.
+    Setter method :
+        While setting the value we can check and so something on the value before setting into variables.

@@ -1,0 +1,13 @@
+Map:
+Må ikke indeholde duplikeringer.
+Benytter keys.
+
+    Hashmap:
+    Ikke sortertet overhovedet.
+    Lægger tingene ind, hvor der er plads i ram.
+
+    LinkedHashMap:
+    Sorteret efter hvilken rækkefølge dataen bliver sat ind.
+
+    TreeMap:
+    Sorterer efter keys endten numerisk eller alfabetisk da den implementerer NavigableMap og SortedMap

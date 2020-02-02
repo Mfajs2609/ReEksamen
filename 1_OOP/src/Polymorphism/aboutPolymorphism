@@ -1,0 +1,10 @@
+Polymorphism
+
+Alt efter hvilken datatype parameteret der gives til en metode har, vil den vælge den metode der hører til.
+Se eksempel i .Animal og .Math klasserne.
+
+Static binding:
+-Opretter objekt i compile time.
+
+Dynamic binding:
+-Opretter objekt i run time.

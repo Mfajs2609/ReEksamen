@@ -1,0 +1,28 @@
+List and StreamAPI
+
+List:
+-Nedarver fra collection interfacet.
+-Man kan gemme duplikeret værdier.
+-Benytter indexer
+    ArrayList:
+    Én lang række med data. Den er lineær. Slettes der noget, skal alle elementer rykkes frem.
+    Dette er en ulempe ved ArrayLists da det er langsommere.
+    Fordel: Godt til hvis du skal have fat i ét bestemt element via et index. Den behøver ikke køre hele listen igennem.
+    LinkedList:
+    Er som udgangspunkt en doubly linked list, som også har pile der peger tilbage.
+    Pile peger på de andre elementer. Slettes data rettes pilene først, så der ikke slettes den data, som elementet
+    peger på.
+    Fordel: Hurtig, da der kun skal rykkes én pointer, hvis der skal slettes eller tilføjes en masse data.
+
+StreamAPI:
+En måde at arbejde med en liste uden at ændre på selve listen.
+Kan bruges til at sortere i den data der ligger i en liste.
+
+Intermediate operations:
+Uføres før terminal operation. For eksempel .skip(1). Her fortæller vi at den ikke skal tage 1 ud.
+Metoder der har noget med dele af listen at gøre.
+-eksempler: .map, .filter, .sorted
+
+Terminal operation:
+Metoder der har noget med hele listen at gøre. Fortæller hvad jeg vil bruge på den nye liste.
+-eksempler: .collect, .forEach, .reduce., .toArray

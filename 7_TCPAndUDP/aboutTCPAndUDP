@@ -1,0 +1,7 @@
+TCP:
+Socket: ServerSocket = bruges til threeway handshake.
+BufferedReader kan læse teskten
+
+Vores eksempel er half duplex. Der kan sendes begge veje, men det skal ske på skift, ellers bliver beskederne forskudt.
+
+UDP:
