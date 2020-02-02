@@ -1,6 +1,6 @@
 package Queue;
 
-//The Queue interface extends the Collection interface
+//The QueueExample interface extends the Collection interface
 //It is used to hold the elements about to be processed
 //and provides various operations like the insertion, removal etc.
 //It is an ordered list of objects.
